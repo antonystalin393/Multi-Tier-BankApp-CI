@@ -52,10 +52,9 @@
 		</dependency>
 
 		<dependency>
-			<groupId>mysql</groupId>
-			<artifactId>mysql-connector-java</artifactId>
-			<version>8.0.33</version>
-			<scope>runtime</scope>
+			<groupId>com.mysql</groupId>
+    			<artifactId>mysql-connector-j</artifactId>
+    			<version>8.0.33</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -83,12 +82,11 @@
 		<distributionManagement>
         <repository>
             <id>maven-releases</id>
-            <url>http://3.110.159.98:8081/repository/maven-releases/</url>
+            <url>http://194.113.194.248:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>maven-snapshots</id>
-            <url>http://3.110.159.98:8081/repository/maven-snapshots/</url>
+            <url>http://194.113.194.248:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
-
 </project>
